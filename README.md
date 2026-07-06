@@ -1,0 +1,1 @@
+A basic landing page exercise from The Odin Project.
