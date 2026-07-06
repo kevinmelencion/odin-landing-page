@@ -19,3 +19,31 @@ body {
   flex-direction: column;
   padding: 16px 80px 48px 80px; /* Generous padding to match the breathing room in the mockup */
 }
+
+/* Header Navbar Layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px; /* Pushes the main hero content down below the nav */
+}
+
+/* Header Logo Styling */
+.header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+/* Header Navigation Links */
+.header .nav-links {
+  display: flex;
+  gap: 24px;                 /* Spacing between each horizontal link */
+  list-style-type: none;     /* Strips out default list bullet points */
+}
+
+.header .nav-links a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;     /* Strips out the default underline */
+}
