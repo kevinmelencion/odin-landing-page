@@ -126,7 +126,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 32px;
-  flex-wrap: wrap; /* This ensures your "responsive flex" works when the screen shrinks! */
+  flex-wrap: wrap; /* This ensures "responsive flex" works when the screen shrinks! */
 }
 
 /* Individual Card Styling */
@@ -151,4 +151,38 @@ body {
 .info-card p {
   font-size: 16px;
   color: #4B5563; /* A soft dark grey for readability */
+}
+
+/* Quote Section Container */
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 80px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Restraining the width so the quote doesn't stretch across the entire screen */
+.quote-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* The Quote Text Styling */
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* The Author Citation Styling */
+.quote-author {
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: bold;
+  align-self: flex-end; /* This shifts ONLY the author text to the right side of the container! */
 }
