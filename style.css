@@ -1,0 +1,21 @@
+/* Global Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section 1: Hero Container */
+.hero-section {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 80px 48px 80px; /* Generous padding to match the breathing room in the mockup */
+}
